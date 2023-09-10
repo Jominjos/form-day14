@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css" >
+</head>
+<body>
+
+   
+   
+    <h1 id="title">FORM</h1>
+    <p id="description"> Form task </p>
+    <div id="modcon" >
+        <div id="modalcon">
+            <form id="modal"  action="">
+                <label for="first-name">FIRST NAME
+                    <input placeholder="Name" id="first-name" required  />
+                </label>
+
+                <label for="lastName">LAST NAME
+                    <input placeholder="last name" id="lastName"  required  />
+
+                </label>
+
+
+               <label for="address">ADDRESS
+               
+                <textarea placeholder="address" id="address" required type="text"> </textarea>
+               </label>
+
+               <label for="pincode">PINCODE
+                <input placeholder="pincode" id="pincode" required  />
+               </label>
+               <div>
+                <label>GENDER</label><br>
+                <label >
+                  <input type="radio" name="gender" value="male" id="mradio" required>
+                  MALE
+                 </label>
+                 <label >
+                  <input type="radio" name="gender" value="female" id="fradio"> 
+                  FEMALE
+                 </label>
+                 <label >
+                  <input type="radio" name="gender" value="other" id="oradio">
+                  OTHER
+                 </label>
+
+               </div>
+               <div id="sapadu">
+                <label>FOOD</label><br>
+
+
+           
+                <label>dosa</label>
+                <input name="food" value="dosa" type="checkbox" id="dosa">
+                
+                <label>idly</label>
+                <input  name="food"  value="idly" type="checkbox" id="idly">
+                
+                <label>rice</label>
+                <input  name="food" value="rice"  type="checkbox" id="rice">
+                
+                <label>parotta</label>
+                <input  name="food" value="parotta"  type="checkbox" id="parotta">
+
+
+               </div>
+               <label for="state">STATE
+                <input placeholder="state" id="state"  type="text" required />
+               </label>
+               <label for="country">COUNTRY
+                <input placeholder="country" id="country" required  type="text" />
+               </label>
+              
+
+
+                <div>
+                    <button type="submit">submit</button>
+                    <button type="reset">reset</button>
+                </div>
+                
+                
+            </form>
+          
+            
+            
+        </div>
+
+    </div>
+    <div id="tab-con">
+        <table id="tablu">
+            <tr>
+               <th>FIRST NAME</th>
+               <th>LAST NAME</th>
+               <th width="20%">ADDRESS</th>
+               <th>PINCODE</th>
+               <th>GENDER</th>
+               <th>FOOD</th>
+               <th>STATE</th>
+               <th>COUNRTY</th>
+              
+    
+    
+            
+    
+    
+    
+        </table>
+    </div>
+   
+<script src="index.js"></script>
+</body>
+</html>
